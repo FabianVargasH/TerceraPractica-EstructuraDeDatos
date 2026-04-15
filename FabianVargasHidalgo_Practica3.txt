@@ -1,0 +1,19 @@
+Estudiante: Fabián Vargas Hidalgo
+
+LINK GITHUB: https://github.com/FabianVargasH/TerceraPractica-EstructuraDeDatos
+
+- - - - - - - 
+
+Aplicación de los Montículos al Algoritmo de Dijkstra:
+
+Primero, el algoritmo de Dijkstra busca resolver que Dado un grafo y un nodo de origen, el algoritmo encuentra la distancia mínima desde ese origen hacia todos los demás nodos del grafo.
+
+Por lo que algoritmo de Dijkstra es algo fundamental en la búsqueda de caminos mínimos en grafos, y este encuentra su implementación más eficiente gracias al uso de los montículo (Los min-heaps) como estructura de datos subyacente para la cola de prioridad
+
+En un principio, la versión clásica del algoritmo de Dijkstra presenta una complejidad que resulta prohibitivo para grafos extensos, por lo que la implementación con un min-heap binario reduce significativamente esta complejidad. Es este caso, el montículo actúa como una cola de prioridad que siempre mantiene accesible el vértice con la distancia mínima no procesada en su raíz.
+
+Personalmente he tenido la experiencia de participar en competencias de programación, justamente en la ICPC (International Collegiate Programming Contest), donde muchas veces se presentan a resolver diversos problemas relacionados a grafos, que personalmente siempre considero que son los problemas con mayor dificultad, pero algo que ayuda mucho a resolverlos es saber implementar el algoritmo de Dijkstra con esta optimización del min-heaps, evidentemente hay que hacer ciertas modificaciones para el contexto del problema en específico, pero la base y lógica es justamente lo que se ve en esta tercer práctica
+
+En Conclusión la relación entre el algoritmo de Dijkstra y los montículos mínimos representa uno de los emparejamientos más elegantes entre estructura de datos y algoritmo, y resuelve uno de los problemas que presentaron muchas aplicaciones de hoy en día en su momento (por ejemplo Google Maps) de forma eficiente y lógica. Sin el min-heap, Dijkstra sería demasiado lento para grafos de gran escala, demostrando cómo una estructura de datos aparentemente simple puede potenciar un algoritmo clásico para volverlo utilizable en el mundo real.
+
+- - - - - - - 
